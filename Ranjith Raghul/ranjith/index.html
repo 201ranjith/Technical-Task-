@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ranjith Raghul</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Basic styles for the navbar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style for the logo */
+        .navbar .logo {
+            float: left;
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        /* Style for the navigation links on the right */
+        .navbar .nav-links {
+            float: left;
+        }
+
+        .navbar .nav-links a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Style for the search bar */
+        .navbar .search-bar {
+            float: right;
+            margin-top: 8px;
+            margin-right: 20px;
+        }
+
+        .navbar input[type="text"] {
+            padding: 6px;
+            width: 200px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .navbar input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 6px 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="first">
+    <div class="navbar">
+        <a href="#" class="logo"><img src="images/1.jpg" style="height:30px; width:30px"></a>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                    <a href="#" style="color: black;">Service 1</a>
+                    <a href="#" style="color: black;">Service 2</a>
+                    <a href="#" style="color: black;">Service 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <form action="#">
+                <input type="text" placeholder="Search...">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="second">
+
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/1.jpg" style="width:100%; height: 300px;">
+  <div class="text">
+      <h1>Dramatically Engage</h1>
+      <p>Objective innovate empowered manufactured products whereas parallel platforms</p>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/1.jpg" style="width:100%;  height: 300px;">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/1.jpg" style="width:100%;  height: 300px;">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center;">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+    
+
+
+</section>
+
+
+<section class="third" style="margin-top: 5%;">
+    <div class="row" style="display:flex; align-items: center; ">
+        <div class="col" id="col-0">
+            <div class=""id="col-1" style="max-width: 300px;">
+                <h2 style="background: gray; border-bottom: 1px solid gray; padding:5px"><i class="fa-solid fa-shuffle"></i> completely synergize</h2>
+                <p style="border-bottom: 1px solid gray; padding: 3px;">Resource Taxing
+                </p>
+                <div class="" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid gray; padding: 3px;">
+                    <div class="">
+                <p>Premier Niche Markets</p>
+            </div>
+            <div class="">
+                <p style="background: gray; border-radius:50%;padding: 5px;">new</p>
+            </div>
+        </div>
+                <p style="border-bottom: 1px solid gray; padding: 3px;">Dynamically Innovate</p>
+                <p style="border-bottom: 1px solid gray; padding: 3px;">Objectively Innovative</p>
+                <p style="border-bottom: 1px solid gray; padding: 3px;">Proactively Envisioned</p>
+            </div>
+
+             <div class=""id="col-2" style="max-width: 300px; height:200px">
+                <h2 style="background: gray; border-bottom: 1px solid gray; padding:5px"><i class="fa-solid fa-gear"></i> Dramatically Engage</h2>
+                <p style="word-wrap:break-word; padding:5px; margin-top:2%">Objectively innovate empowered manufactured
+                    products whereas parallel platforms. Holisticly
+                    predominate extensible testing procedures for
+                    reliable supply chains. Dramatically engage top-
+                    line web services vis-a-vis cuting-edge
+                    deliverables.</p>               <br><br>
+                <a href="#" style="text-decoration: none; color:black; padding:8px 12px; background:white; border:1px solid gray; margin-left:2%">Engage</a>
+            </div>
+        </div>
+        <div class="col" style="word-wrap: break-word; max-width: 500px; margin: auto;">
+            <div class="" style="display:flex; background: red; border: 2px solid black; padding: 10px; justify-content: space-between;">
+                <div class="">
+                    <p style="word-wrap: break-word;">Synergize: Seamlessly visualize quality intelectual capitall</p>
+                </div>
+                <div class="">
+                    <a href="#">X</a>
+                </div>
+            </div>
+
+            <div class="" style="margin-top: 3%; ">
+                <div class="" style="word-wrap: break-word; max-width: 600px; margin: auto; height: auto;">
+
+
+                    <div class="" style="display:flex; align-items: center;">
+                        <div class="">
+                            <img src="images/1.jpg" style="height: 100px; width: 100px;">
+                        </div>
+                        <div class="" style="margin-left: 10px;">
+                            <h2>Premier Niche Markets
+                            </h2>
+                            <p style="word-wrap: break-word; max-width:400px; margin-top:2%">Phosfiuorescentily engage worldwide methodologies with web-enabled technology. Iinteractively
+                                coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely
+                                pursue scalable customer service through sustainable potentialities.</p>
+                            <div style="margin-top: 2%;">
+                            <a href="#"><i class="fa-regular fa-comment"></i> 2 comments</a>
+                            <a href="#"><i class="fa-solid fa-share"></i> 8 shares</a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <div class="" style="display:flex; align-items: center; margin-top: 5%;">
+                        <div class="">
+                            <img src="images/1.jpg" style="height: 100px; width: 100px;">
+                        </div>
+                        <div class="" style="margin-left: 10px;">
+                            <h2>Proactively Envisioned
+                            </h2>
+                            <p style="word-wrap: break-word; max-width:400px; margin-top:2%">Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.
+                                Holistically pontificate installed base portals after maintainable products. Proactively envisioned
+                                multimedia based expertise and cross-media growth strategies</p>
+                            <div style="margin-top:2%">
+                            <a href="#"><i class="fa-regular fa-comment"></i> 12 comments</a>
+                            <a href="#"><i class="fa-solid fa-share"></i> 18 shares</a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <div class="" style="display:flex; align-items: center; margin-top: 5%;">
+                        <div class="">
+                            <img src="images/1.jpg" style="height: 100px; width: 100px;">
+                        </div>
+                        <div class="" style="margin-left: 10px;">
+                            <h2>Completely Synergize
+                            </h2>
+                            <p style="word-wrap: break-word; max-width:400px; margin-top:2%">Completely synergize resource taxing relationships via premier niche markets. Professionally
+                                cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-
+                                leveling customer service for state of the art customer service.</p>
+                            <div style="margin-top: 2%;">
+                            <a href="#"><i class="fa-regular fa-comment"></i> 23 comments</a>
+                            <a href="#"><i class="fa-solid fa-share"></i> 22 shares</a>
+                        </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</div>
+
+        <div class="col" style="max-width: 300px; margin:auto; word-wrap:break-word;">
+
+            <div class="" id="col-2" style="max-width:300px">
+                <h2 style="background: gray; border-bottom: 1px solid gray; padding:5px"><i class="fa-solid fa-right-to-bracket"></i> log in</h2>
+                <form style="padding: 2%;">
+
+                <input type="text" placeholder="username" style="font-size: 15px;"><br>
+                <input type="password" placeholder="password" style="margin-top:2%;font-size: 15px;"><br>
+
+                <button type="submit" style="margin-top:2%;font-size: 15px; padding: 5px;">log in</button>
+            </form>
+        </div>
+
+         <div class="" id="col-2" style="max-width: 300px;">
+                <h2 style="background: gray; border-bottom: 1px solid gray; padding:5px"><i class="fa-solid fa-ring"></i> Drametically engage</h2>
+
+                <div class="outer-progress">
+        <div class="inner-progress-100">100%</div>
+        <div class="progress-label">Progress</div>
+    </div>
+ <div class="outer-progress">
+        <div class="inner-progress-80">80%</div>
+        <div class="progress-label">Progress</div>
+    </div>
+
+ <div class="outer-progress">
+        <div class="inner-progress-45">45%</div>
+        <div class="progress-label">Progress</div>
+    </div>
+
+ <div class="outer-progress">
+        <div class="inner-progress-35">35%</div>
+        <div class="progress-label">Progress</div>
+    </div>
+
+
+
+        </div>
+ <div class="" id="col-2" style="max-width:300px; word-wrap: break-word; ">
+                <h2 style="background: gray; border-bottom: 1px solid gray; padding:5px"><i class="fa-solid fa-radio"></i> Active Predomination</h2>
+                <div style="padding: 2%;">
+                <p style=" word-wrap: break-word;">Proactively envisioned multimedia based expertise and cross media growth strategies.</p>
+                <br><br>
+<div style="display: inline;">
+                <button style="padding: 5px;">Resources</button>
+                <button style="padding: 5px;">Envision</button>
+                <button style="padding: 5px;">Niche</button>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer style="padding: 5%; background: gray; margin-top:3%">
+    <div class="row" style="display:flex;">
+        <div class="col" style="max-width: 300px; margin:auto;">
+            <h2><i class="fa-solid fa-t"></i> Dynamic</h2>
+            <p style=" word-wrap: break-word; margin-top: 2%;">Collaboratively administrate empowered
+                markets via plug-and-play networks.
+                Dynamically procrastinate B2C users
+                after installed base benefits.
+                Dramatically visualize customer directed
+                customer
+                convergence without revolutionary ROI.</p>
+            <button style="padding: 5px; margin-top: 2%;">Procrastinate</button>
+        </div>
+         <div class="col" style="margin-left:20px; max-width: 300px; margin:auto;" >
+            <h2><i class="fa-solid fa-toolbox"></i> Efficient</h2>
+            <p style=" word-wrap: break-word;margin-top: 2%;">Dramatically maintain clicks-and-mortar
+                solutions without functional solutions.
+                Efficiently unleash cross-media
+                information without cross-media value.
+                Quickly maximize timely deliverables for
+                real-time schemas.</p>
+    <button style="padding: 5px;margin-top: 2%;">Unleash</button>
+        </div>
+         <div class="col" style="margin-left:20px; max-width: 300px; margin:auto;">
+            <h2><i class="fa-solid fa-thumbtack"></i> Complete</h2>
+            <p style=" word-wrap: break-word;margin-top: 2%;">Professionally cultivate one-to-one
+                customer service with robust ideas
+                Completely synergize resource taxing
+                relationships via premier niche markets
+                Dynamicaly innovate resource-leveling
+                customer service for state of the art
+                customer service.</p>
+            <button style="padding: 5px;margin-top: 2%;">Complete</button>
+        </div>
+         <div class="col" style="margin-left:20px">
+            <h2><i class="fa-solid fa-camera"></i>Phosfluorescent </h2>
+            <div class="row" style="display:flex; margin-top:2%">
+                <div class="col">
+                    <img src="images/1.jpg" style="height:100px; width:100px">
+                </div>
+                 <div class="col" style="margin-left:2%">
+                    <img src="images/1.jpg" style="height:100px; width:100px">
+                </div>
+            </div>
+            <div class="row" style="display:flex; margin-top:2%">
+                <div class="col">
+                    <img src="images/1.jpg" style="height:100px; width:100px">
+                </div>
+                 <div class="col" style="margin-left:2%">
+                    <img src="images/1.jpg" style="height:100px; width:100px">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>
